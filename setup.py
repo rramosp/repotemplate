@@ -4,5 +4,5 @@ setup(
     name = 'repotemplate',
     version = '0.1.0',
     package_dir = {"": "src"},
-    packages = ['repotemplate']
+    packages = find_packages(where="src")
 )
