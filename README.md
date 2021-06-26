@@ -15,10 +15,9 @@ see the example notebook under `notebooks`
 if you modify any file under `src` use the following in your code
 
     from repotemplate import utils
-    # ... other code
     from importlib import reload
     reload(utils) 
-    
+
 to reload any module within the same python process (no need to restart)
 
 ## using this repo packages
